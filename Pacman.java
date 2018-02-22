@@ -50,8 +50,13 @@ class MyPanel extends JPanel {
 		g.fillOval(1400, 890, 20, 20);
 		g.fillOval(1600, 890, 20, 20);
 		
+		g.fillOval(130, 350, 20, 20); // balls couloir vertical gauche
+		g.fillOval(130, 550, 20, 20);
+		g.fillOval(130, 750, 20, 20);
 		
-		
+		g.fillOval(1760, 350, 20, 20); // balls couloir vertical droit
+		g.fillOval(1760, 550, 20, 20);
+		g.fillOval(1760, 750, 20, 20);
 		
 		g.setColor(Color.blue); // Walls
 		g.fillRect(0, 0, 2000, 30); // mur horizontal du haut
@@ -100,20 +105,20 @@ class MyPanel extends JPanel {
 		
 		
 		g.setColor(Color.cyan); // Phantom cyan
-		g.fillArc(1830, 830, 150, 150, 0, 180);
-		g.fillRect(1830, 905, 150, 40);
-		g.fillOval(1830, 925, 44, 40);
-		g.fillOval(1865, 925, 44, 40);
-		g.fillOval(1900, 925, 44, 40);
-		g.fillOval(1935, 925, 44, 40);
+		g.fillArc(1840, 830, 150, 150, 0, 180);
+		g.fillRect(1840, 905, 150, 40);
+		g.fillOval(1840, 925, 44, 40);
+		g.fillOval(1875, 925, 44, 40);
+		g.fillOval(1910, 925, 44, 40);
+		g.fillOval(1945, 925, 44, 40);
 		
 		g.setColor(Color.white); // Eyes
-		g.fillOval(1850, 870, 45, 45);
-		g.fillOval(1915, 870, 45, 45);
+		g.fillOval(1860, 870, 45, 45);
+		g.fillOval(1925, 870, 45, 45);
 		
 		g.setColor(Color.gray); // Pupils
-		g.fillOval(1850, 880, 25, 25);
-		g.fillOval(1915, 880, 25, 25);
+		g.fillOval(1860, 880, 25, 25);
+		g.fillOval(1925, 880, 25, 25);
 		
 
 	}
