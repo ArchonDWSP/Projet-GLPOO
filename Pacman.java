@@ -11,8 +11,8 @@ public class DrawRectangle {
 
 		// create a basic JFrame
 		JFrame.setDefaultLookAndFeelDecorated(true);
-		JFrame frame = new JFrame("Test de kalitay");
-		frame.setSize(800, 500);
+		JFrame frame = new JFrame("Pacman GLPOO");
+		frame.setSize(1080, 720);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		// add panel to main frame
@@ -39,6 +39,20 @@ class MyPanel extends JPanel {
 		g.fillRect(700, 250, 30, 700);
 		g.fillRect(950, 0, 30, 950);
 		g.fillRect(0, 0, 950, 30);
+		g.setColor(Color.red);
+		g.fillArc(765, 500, 150, 150, 0, 180);
+		g.fillRect(765, 575, 150, 40);
+		g.fillOval(765, 595, 44, 40);
+		g.fillOval(800, 595, 44, 40);
+		g.fillOval(835, 595, 44, 40);
+		g.fillOval(870, 595, 44, 40);
+		g.setColor(Color.white);
+		g.fillOval(780, 540, 45, 45);
+		g.fillOval(855, 540, 45, 45);
+		g.setColor(Color.gray);
+		g.fillOval(780, 550, 25, 25);
+		g.fillOval(855, 550, 25, 25);
 
 	}
 }
+
