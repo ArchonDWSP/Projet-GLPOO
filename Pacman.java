@@ -28,16 +28,17 @@ class MyPanel extends JPanel {
 	public void paint(Graphics g) {
 		
 		g.setColor(Color.yellow);
-		g.fillArc(0, 0, 150, 150, 45, 265);
+		g.fillArc(0, 50, 150, 150, 45, 265);
 		g.setColor(Color.white);
-		g.fillOval(200, 70, 20, 20);
-		g.fillOval(400, 70, 20, 20);
-		g.fillOval(600, 70, 20, 20);
-		g.fillOval(800, 55, 50, 50);
+		g.fillOval(200, 120, 20, 20);
+		g.fillOval(400, 120, 20, 20);
+		g.fillOval(600, 120, 20, 20);
+		g.fillOval(800, 105, 50, 50);
 		g.setColor(Color.blue);
-		g.fillRect(0, 200, 700, 30);
-		g.fillRect(700, 200, 30, 700);
-		g.fillRect(950, 0, 30, 900);
+		g.fillRect(0, 250, 700, 30);
+		g.fillRect(700, 250, 30, 700);
+		g.fillRect(950, 0, 30, 950);
+		g.fillRect(0, 0, 950, 30);
 
 	}
 }
