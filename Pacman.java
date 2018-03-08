@@ -120,6 +120,6 @@ class MyPanel extends JPanel {
 		g.fillOval(1860, 880, 25, 25);
 		g.fillOval(1925, 880, 25, 25);
 		
-
+f
 	}
 }
